@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>01 - Cecé.kml</name>
+	<StyleMap id="msn_ranger_station3">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ranger_station5</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ranger_station01</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="inline61100">
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="inline9001">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline3101</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline1000011</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="inline4601">
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ranger_station5">
+		<IconStyle>
+			<scale>0.8</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/ranger_station.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.8</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="inline1000011">
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline46000">
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="inline90000">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline31000</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline10000</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="inline3101">
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="inline4710">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline46000</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline61100</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ranger_station01">
+		<IconStyle>
+			<scale>0.933333</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/ranger_station.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.8</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="inline31000">
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="inline470">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline4601</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline6111</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="inline6111">
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline10000">
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Folder>
+		<name>01 - Cecé</name>
+		<open>1</open>
+		<Placemark>
+			<name>01</name>
+			<open>1</open>
+			<LookAt>
+				<longitude>-44.08417620781022</longitude>
+				<latitude>-19.59104035578821</latitude>
+				<altitude>0</altitude>
+				<heading>-0.0249293373988597</heading>
+				<tilt>0</tilt>
+				<range>419.2004576015754</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ranger_station3</styleUrl>
+			<Point>
+				<coordinates>-44.08396635964754,-19.59050987508028,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>1/1 - 12,2</name>
+			<styleUrl>#inline90000</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-44.08801337561184,-19.58617108125787,0 -44.08811654805625,-19.58658241120941,0 -44.08815991097955,-19.58677064747721,0 -44.08818658249511,-19.58705068091834,0 -44.08815002313026,-19.58726948288062,0 -44.08803546959105,-19.58770984460695,0 -44.0879204086587,-19.58805917964128,0 -44.0877497552874,-19.5885855040296,0 -44.0876219181533,-19.58894187097279,0 -44.08752947399177,-19.58916955859244,0 -44.08750944194269,-19.5891945153483,0 -44.08400653162853,-19.59045990089738,0 -44.08396395838192,-19.58947876415603,0 -44.0839562283601,-19.58849149835855,0 -44.08394356669355,-19.5881108461305,0 -44.08404035298481,-19.58802331088797,0 -44.08485328932584,-19.58763307307662,0 -44.08588555554923,-19.58717371051221,0 -44.08695792769183,-19.58667948897225,0 -44.08801337561184,-19.58617108125787,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>1/2 - 10,1</name>
+			<LookAt>
+				<longitude>-44.08047701003397</longitude>
+				<latitude>-19.59301087776339</latitude>
+				<altitude>0</altitude>
+				<heading>0.006228150475042487</heading>
+				<tilt>0</tilt>
+				<range>2772.681921799476</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#inline4710</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-44.08394666230583,-19.59048411702418,0 -44.08161353160023,-19.59087819275465,0 -44.08148919052033,-19.58648313671947,0 -44.08216823454792,-19.58685075256509,0 -44.08267452045949,-19.58656053508399,0 -44.08388820825527,-19.58804064119626,0 -44.08394666230583,-19.59048411702418,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>1/4 - 11,6</name>
+			<styleUrl>#inline9001</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-44.08751603612625,-19.58918855251911,0 -44.08763711287336,-19.58976085906923,0 -44.08771859141982,-19.59001554139804,0 -44.08784578140146,-19.59037509421571,0 -44.08793919269659,-19.59055674564466,0 -44.08811152346335,-19.59078604521884,0 -44.08828841099788,-19.59108005792334,0 -44.08839971133149,-19.5912766906954,0 -44.08794734389877,-19.59151476390636,0 -44.0873657295748,-19.59184106314078,0 -44.08628546949204,-19.59244736055522,0 -44.08559934203046,-19.59280922125784,0 -44.08548404900912,-19.59287288277842,0 -44.08537779720555,-19.59282845738714,0 -44.08528081190422,-19.59282692752917,0 -44.08512061336151,-19.59273028279163,0 -44.08499873604134,-19.59256697405739,0 -44.08482033547098,-19.59237807351864,0 -44.08460284700335,-19.59237468968069,0 -44.08442368589031,-19.59233248762017,0 -44.08424164119513,-19.59233724811666,0 -44.08411196164316,-19.59238885006841,0 -44.08402665373203,-19.59250114481537,0 -44.08395707546287,-19.59259477068484,0 -44.08387357811674,-19.59274664833457,0 -44.08382785186827,-19.59284402154528,0 -44.08375826605669,-19.59301817044662,0 -44.08367387743061,-19.59324839552605,0 -44.08363896886539,-19.59339455871807,0 -44.08360117813302,-19.59365859612803,0 -44.08362102155827,-19.59403125174981,0 -44.08362101458246,-19.59410802996386,0 -44.08356685151483,-19.59412736924136,0 -44.08354010411293,-19.59384382750833,0 -44.08356351892541,-19.59350042911026,0 -44.08361033917959,-19.59331140339658,0 -44.08376417136043,-19.59287733647709,0 -44.08395813242086,-19.59248668322249,0 -44.08402167075993,-19.59237641865414,0 -44.08406180078708,-19.59225670258856,0 -44.08406180296768,-19.59208342891696,0 -44.08405846587704,-19.59152265284139,0 -44.08405341263673,-19.59092153934727,0 -44.08401835035774,-19.59045780326792,0 -44.08751603612625,-19.58918855251911,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>1/3 - 9,24</name>
+			<styleUrl>#inline470</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-44.08400570337442,-19.59226089042362,0 -44.08363916448968,-19.59301012490474,0 -44.0835302051781,-19.59336215996514,0 -44.08350293691567,-19.59376186237131,0 -44.08351039985255,-19.5941527543016,0 -44.08289749725461,-19.59436827220069,0 -44.08232566774481,-19.59454230407154,0 -44.08175770954249,-19.59470984120464,0 -44.08161213289104,-19.59086555968436,0 -44.0839612387027,-19.59047846387868,0 -44.08400570337442,-19.59226089042362,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

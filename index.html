@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <style>
+       #map {
+        height: 800px;
+        width: 100%;
+       }
+    </style>
+  </head>
+  <body>
+    <h3>My Google Maps Demo</h3>
+    <div id="map"></div>
+    <script>
+      function initMap() {
+        var uluru = {lat: -19.596348, lng: -44.099465};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 15,
+          center: uluru,
+          mapTypeId: 'satellite'
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+
+
+
+      // var src2 = 'C:\Users\josej\Documents\Playground\fazenda_app\cece.kml';
+      var kmlLayer = new google.maps.KmlLayer({
+        url: 'C:\Users\josej\Documents\Playground\fazenda_app\cece.kml',
+        // suppressInfoWindows: true,
+        // preserveViewport: false,
+        map: map
+      });
+
+    }
+
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCfdUjSz-AqA_aXQbK5rCtxmiyK4ZQCyMM&callback=initMap">
+    </script>
+  </body>
+</html>
